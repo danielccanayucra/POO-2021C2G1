@@ -743,6 +743,15 @@ public class CalculadoraDerivada extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "PRESENTACION DEL PROYECTO FINAL.\nDesarrollado por: Daniel Ccana Y Yho jana Uscamayta"
                 + "\nFELIZ NAVIDAD Y UN PROSPERO AÑO NUEVO", "Presentacion", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_jButton5ActionPerformed
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new CalculadoraDerivada().setVisible(true);
+            }
+        });
+    }
+
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
